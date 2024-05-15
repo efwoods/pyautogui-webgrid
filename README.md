@@ -8,6 +8,9 @@ Automating mouse movements to play webgrid and visualize what optimal BPS perfor
 2. Read the instructions in "start.sh"
 3. Run '. ./start.sh'
 
+## Total time to develop solution:
+4.65 Hours
+
 ## Resources
 [pyautogui](https://pyautogui.readthedocs.io/en/latest/mouse.html)
 
