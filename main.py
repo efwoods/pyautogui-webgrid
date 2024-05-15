@@ -56,7 +56,6 @@ def clickWebGridTarget(target_image, your_peak_score_img):
 def playWebgrid():
     target_image, start_game_img, your_peak_score_img = loadImages()
     startWebgrid(start_game_img)
-    # time.sleep(6)
     clickWebGridTarget(target_image, your_peak_score_img)
     
 def main():
