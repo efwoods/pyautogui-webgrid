@@ -11,11 +11,9 @@ def helloWorld():
 def loadImages():
     cwd = os.getcwd()
     target_image = cwd + '/images/blue-button.png'
-    test_logo = cwd + '/images/logo.png'
     start_game_img = cwd + '/images/start-game.png'
-    start_game_black_img = cwd + '/images/start-game-black.png'
     your_peak_score_img = cwd + '/images/your-peak-score.png'
-    return target_image, test_logo, start_game_img, start_game_black_img, your_peak_score_img
+    return target_image, start_game_img, your_peak_score_img
 
 def startWebgrid(start_game_img):
     start_game_location = pyautogui.locateCenterOnScreen(start_game_img, confidence=0.9)
@@ -29,13 +27,9 @@ def startWebgrid(start_game_img):
     pyautogui.click()
 
 def clickWebGridTarget(target_image, your_peak_score_img):
-    # test_position_x = 1099
-    # test_position_y = 490
-    # pyautogui.click(test_position_x, test_position_y)
-    # pyautogui.click()
+
     continue_searching = True
     count = 0
-    # num_of_attempts = 20
     while(continue_searching):
         count += 1
         print('attempt #: {}'.format(count))
@@ -60,15 +54,13 @@ def clickWebGridTarget(target_image, your_peak_score_img):
                 pass
 
 def playWebgrid():
-    target_image, test_logo, start_game_img, start_game_black_img, your_peak_score_img = loadImages()
+    target_image, start_game_img, your_peak_score_img = loadImages()
     startWebgrid(start_game_img)
     # time.sleep(6)
     clickWebGridTarget(target_image, your_peak_score_img)
     
 def main():
     playWebgrid()
-
-
-
+    
 if __name__ == '__main__':
     playWebgrid()
