@@ -1,7 +1,7 @@
 # pyautogui-webgrid
 Automating mouse movements to play webgrid and visualize what optimal BPS performance looks like.
 
-![image](./images/webgrid.png)
+![image](./video-demo/auto-webgrid-demo.gif)
 
 ## Resources
 [pyautogui](https://pyautogui.readthedocs.io/en/latest/mouse.html)
