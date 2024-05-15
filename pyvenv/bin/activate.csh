@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/evanwoods/github/pyautogui-webgrid/pyautogui"
+setenv VIRTUAL_ENV "/Volumes/T7/Github/pyautogui-webgrid/pyvenv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -18,8 +18,8 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    set prompt = "(pyautogui) $prompt"
-    setenv VIRTUAL_ENV_PROMPT "(pyautogui) "
+    set prompt = "(pyvenv) $prompt"
+    setenv VIRTUAL_ENV_PROMPT "(pyvenv) "
 endif
 
 alias pydoc python -m pydoc

@@ -1,4 +1,4 @@
-#!/Users/evanwoods/github/pyautogui-webgrid/pyautogui/bin/python3.12
+#!/Volumes/T7/Github/pyautogui-webgrid/pyvenv/bin/python3.12
 # -*- coding: utf-8 -*-
 import re
 import sys
