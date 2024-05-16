@@ -1,12 +1,5 @@
 import pyautogui
 import os
-import time
-
-def saveScreenshot():
-    im = pyautogui.screenshot('test_screenshot.png')
-
-def helloWorld():
-    print('hello world')
 
 def loadImages():
     cwd = os.getcwd()
